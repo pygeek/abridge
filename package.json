@@ -1,0 +1,27 @@
+{
+  "name": "abridge",
+  "version": "0.1.0",
+  "description": "node.js url shortener",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pygeek/abridge.git"
+  },
+  "keywords": [
+    "url",
+    "shortener",
+    "shortener"
+  ],
+  "author": "Clinton Christian (pygeek)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pygeek/abridge/issues"
+  },
+  "homepage": "https://github.com/pygeek/abridge#readme",
+  "dependencies": {
+    "hapi": "^11.0.0"
+  }
+}
