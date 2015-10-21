@@ -5,8 +5,7 @@ let server = new Hapi.Server();
 let routes = require('./routes/index');
 
 
-server.connection({ port: 3000 });
-
+server.connection({ port: process.env.PORT || 3000 });
 server.route(routes);
 
 
@@ -35,5 +34,7 @@ server.route(routes);
 //
 
 server.start(function () {
-  console.log('Server running at:', server.info.uri);
+  console.info('Server running at:', server.info.uri);
 });
+
+module.exports = { 'server': server }

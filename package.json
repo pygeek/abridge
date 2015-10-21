@@ -4,7 +4,7 @@
   "description": "node.js url shortener",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "lab tests"
   },
   "repository": {
     "type": "git",
@@ -12,7 +12,6 @@
   },
   "keywords": [
     "url",
-    "shortener",
     "shortener"
   ],
   "author": "Clinton Christian (pygeek)",
@@ -23,5 +22,10 @@
   "homepage": "https://github.com/pygeek/abridge#readme",
   "dependencies": {
     "hapi": "^11.0.0"
+  },
+  "devDependencies": {
+    "code": "^1.5.0",
+    "lab": "^6.2.0",
+    "wreck": "^6.3.0"
   }
 }
